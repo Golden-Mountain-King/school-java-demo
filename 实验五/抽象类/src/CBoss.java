@@ -1,13 +1,13 @@
 
 public final class CBoss extends AEmployee {
-	//double weeklySalary;
+	double weeklySalary;
 	CBoss(String firstName, String lastName,double newsalary){	
 		super(firstName,lastName);
 		salary=newsalary;
 	}
-//	public void setWeeklySalary(double weeklySarlary) {
-//		this.weeklySalary=weeklySarlary;
-//	}
+	public double getWeeklySalary() {
+		return (salary/4);
+	}
 	public double earnings() {
 		return salary;
 	}
