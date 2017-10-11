@@ -6,13 +6,13 @@ public class China {
 		hubei=new HuBei();
 	}
 	void fun() {
-		System.out.println("ÕâÀïÊÇÖĞ¹ú");
+		System.out.println("è¿™é‡Œæ˜¯ä¸­å›½");
 		hubei.showrate();
 	}
 	class HuBei extends CenterEast{
 		float z;
 		void showrate() {
-			System.out.println("ºş±±ÊÇ"+River+"Õ¼È«¹úºş±±±ÈÀı="+z);
+			System.out.println("æ¹–åŒ—æ˜¯"+River+"å å…¨å›½æ¹–åŒ—æ¯”ä¾‹="+z);
 		}
 		void countrate() {
 			z=x/y;

@@ -2,12 +2,12 @@
 public class Exam040203 {
 
 	public static void main(String[] args) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
 		ShowMessage dm;
 		dm=new Car();
-		dm.show("±¼³Û");
+		dm.show("å¥”é©°");
 		dm=new Bicycle();
-		dm.show("½İ°²ÌØ");
+		dm.show("æ·å®‰ç‰¹");
 	}
 
 }

@@ -3,25 +3,25 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
 		CDate date=new CDate();
 		Scanner sc=new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÄê£º\t");
-		int y=sc.nextInt(); //ÊäÈëÄê
+		System.out.print("è¯·è¾“å…¥å¹´ï¼š\t");
+		int y=sc.nextInt(); //è¾“å…¥å¹´
 		if(date.whatYear(y)) {
-			System.out.print("ÊÇÈòÄê");
+			System.out.print("æ˜¯é—°å¹´");
 		}
 		else {
-			System.out.print("ÊÇÆ½Äê");
+			System.out.print("æ˜¯å¹³å¹´");
 		}
 		System.out.print("\n");
 		
-		System.out.print("ÇëÊäÈëÔÂ£º\t");
-		int m=sc.nextInt();//ÊäÈëÔÂ
-		System.out.println("±¾ÔÂÒ»¹²ÓĞ:"+date.daysInMonth(m)+"Ìì");
-		System.out.print("ÇëÊäÈëºÅ£º\t");
+		System.out.print("è¯·è¾“å…¥æœˆï¼š\t");
+		int m=sc.nextInt();//è¾“å…¥æœˆ
+		System.out.println("æœ¬æœˆä¸€å…±æœ‰:"+date.daysInMonth(m)+"å¤©");
+		System.out.print("è¯·è¾“å…¥å·ï¼š\t");
 		int d=sc.nextInt();
-		System.out.println(y+"Äê"+m+"ÔÂ"+d+"ºÅÊÇÒ»ÄêÖĞµÄ"+date.howManyDays(d)+"Ìì");
+		System.out.println(y+"å¹´"+m+"æœˆ"+d+"å·æ˜¯ä¸€å¹´ä¸­çš„"+date.howManyDays(d)+"å¤©");
 		sc.close();
 	}
 

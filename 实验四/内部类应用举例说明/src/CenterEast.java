@@ -1,4 +1,4 @@
 
 public class CenterEast {
-	String River="ǧ��֮ʡ";
+	String River="千湖之省";
 }

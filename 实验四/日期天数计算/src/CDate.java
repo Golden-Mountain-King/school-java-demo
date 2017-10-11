@@ -1,6 +1,6 @@
 public class CDate {
 	private int day,month,year;
-	public boolean whatYear(int y) {//¼ÆËãÊÇÈòÄê»¹ÊÇÆ½Äê
+	public boolean whatYear(int y) {//è®¡ç®—æ˜¯é—°å¹´è¿˜æ˜¯å¹³å¹´
 		if(y%4==0) {
 			this.year=y;
 			return true;
@@ -10,7 +10,7 @@ public class CDate {
 			return false;
 		}
 	}
-	public int daysInMonth(int m) {//¼ÆËãÄ³¸öÔÂµÄÌìÊý£¨ÔÚÄ³Ò»ÄêÄÚ£©
+	public int daysInMonth(int m) {//è®¡ç®—æŸä¸ªæœˆçš„å¤©æ•°ï¼ˆåœ¨æŸä¸€å¹´å†…ï¼‰
 		this.month=m;
 		if(whatYear(year)==true&&month==2) {
 			return 29;
@@ -26,7 +26,7 @@ public class CDate {
 		}
 		return 0;
 	}
-	public int howManyDays(int d) {//¼ÆËãÄ³Ò»ÈÕÆÚÔÚ¸ÃÄêÄÚËãµÚ¼¸Ìì
+	public int howManyDays(int d) {//è®¡ç®—æŸä¸€æ—¥æœŸåœ¨è¯¥å¹´å†…ç®—ç¬¬å‡ å¤©
 		this.day=d;
 		int s=day;
 		for(month=month-1;month>0;month--) {
