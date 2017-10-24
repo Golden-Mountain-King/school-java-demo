@@ -19,8 +19,8 @@ public class File {
 				default:break;
 			}	
 		}while(e!=-1);
-		System.out.println("cµÄÖµÓÐ"+c+"¸ö");
-		System.out.println("jµÄÖµÓÐ"+j+"¸ö");
-		System.out.println("iµÄÖµÓÐ"+i+"¸ö");
+		System.out.println("cçš„å€¼æœ‰"+c+"ä¸ª");
+		System.out.println("jçš„å€¼æœ‰"+j+"ä¸ª");
+		System.out.println("içš„å€¼æœ‰"+i+"ä¸ª");
 	}
 }
