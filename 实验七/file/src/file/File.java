@@ -4,7 +4,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class File {
-	@SuppressWarnings("resource")
 	public static void main(String args[]) throws IOException {
 		FileInputStream f;
 		f=new FileInputStream("file.txt");
@@ -22,5 +21,6 @@ public class File {
 		System.out.println("c的值有"+c+"个");
 		System.out.println("j的值有"+j+"个");
 		System.out.println("i的值有"+i+"个");
+		f.close();
 	}
 }
