@@ -1,10 +1,12 @@
 
 public abstract class AEmployee {
-	public String firstName,lastName;
+	
+	String firstName;
+	public String lastName;
 	public double salary;
-	AEmployee (String firstName,String lastName){
-		this.firstName=firstName;
-		this.lastName=lastName;
+	AEmployee (String string,String string2){
+		this.firstName=string;
+		this.lastName=string2;
 	}
 	public String getFirstName() {
 		return firstName;
